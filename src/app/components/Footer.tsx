@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white py-12 px-4 md:px-6 lg:px-8">
+    <footer className="w-full bg-gray-100 py-12 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* For Customers */}
           <div className="space-y-4">
             <h3 className="font-semibold text-gray-900">Neighbourhood</h3>
@@ -36,23 +36,7 @@ const Footer = () => {
             </nav>
           </div>
 
-          {/* About */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900">About</h3>
-            <nav className="flex flex-col space-y-3">
-              <Link href="/about" className="text-gray-500 hover:text-gray-700">
-                About Neighbourhood
-              </Link>
-              <Link href="/jobs" className="text-gray-500 hover:text-gray-700">
-                Careers
-              </Link>
-              
-              <Link href="/blog" className="text-gray-500 hover:text-gray-700">
-                Blog
-              </Link>
-             
-            </nav>
-          </div>
+         
 
           {/* Contact Info */}
           <div className="space-y-4">
