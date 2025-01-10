@@ -30,10 +30,10 @@ const Hero = () => {
         <div className="flex items-center space-x-8">
           <img src="/neighbourhood.png" alt="Nextdoor" className="w-44" />
           <div className="flex space-x-6">
-            <a href="#" className="text-white font-medium">Neighbours</a>
-            <a href="#" className="text-white font-medium">Public Services</a>
+            <a href="#" className="text-white hover:text-[#85cc59] font-medium">Neighbours</a>
+            <a href="#" className="text-white hover:text-[#85cc59] font-medium">Public Services</a>
             <div className="relative group">
-              <a href="#" className="text-white font-medium flex items-center">
+              <a href="#" className="text-white hover:text-[#85cc59] font-medium flex items-center">
                 Business
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
