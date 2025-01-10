@@ -5,7 +5,7 @@ import { Eye } from 'lucide-react';
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+
   
   const backgroundImages = [
     '/29115.jpg',
@@ -15,13 +15,9 @@ const Hero = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setIsTransitioning(true);
-      setTimeout(() => {
-        setCurrentImageIndex((prevIndex) => 
-          prevIndex === backgroundImages.length - 1 ? 0 : prevIndex + 1
-        );
-        setIsTransitioning(false);
-      }, 1000); // Duration of fade out
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === backgroundImages.length - 1 ? 0 : prevIndex + 1
+      );
     }, 5000); // Switch every 5 seconds
 
     return () => clearInterval(intervalId);

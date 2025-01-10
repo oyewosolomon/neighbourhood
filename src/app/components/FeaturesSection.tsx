@@ -10,7 +10,7 @@ const FeaturesSection = () => {
           Get the most out of your neighbourhood with Nextdoor
         </h1>
         <p className="text-md text-gray-700 leading-relaxed">
-          It&apos;s where communities come together to greet newcomers, exchange recommendations, and read the latest local news. Where neighbours support local businesses and get updates from public services. Where neighbours borrow tools and sell sofas. It's how to get the most out of everything nearby. Welcome, neighbour.
+          It&apos;s where communities come together to greet newcomers, exchange recommendations, and read the latest local news. Where neighbours support local businesses and get updates from public services. Where neighbours borrow tools and sell sofas. It&apos;s how to get the most out of everything nearby. Welcome, neighbour.
         </p>
       </div>
 
