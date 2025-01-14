@@ -28,7 +28,7 @@ const Footer = () => {
               <Link href="/guidelines" className="text-gray-500 hover:text-gray-700">
                 Guidelines
               </Link>
-              <Link href="/pricing/client" className="text-gray-500 hover:text-gray-700">
+              <Link href="/#hero" className="text-gray-500 hover:text-gray-700">
                 Get started
               </Link>
             
@@ -67,13 +67,12 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="mt-12 pt-8 text-center border-t border-gray-200">
+          <div className="flex flex-col items-center space-y-4">
             <p className="text-sm text-gray-500">
               © 2025 Neighbourhood inc.{' '}
-              <Link href="/terms" className="hover:text-gray-700">Terms & Conditions</Link>
-              {' / '}
-              <Link href="/cookie-policy" className="hover:text-gray-700">Cookie policy</Link>
+             
+              <Link href="/cookie-policy" className="hover:text-gray-700">Members Agreement</Link>
               {' / '}
               <Link href="/privacy-policy" className="hover:text-gray-700">Privacy policy</Link>
             </p>

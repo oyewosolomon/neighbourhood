@@ -1,5 +1,6 @@
 import React from 'react';
 import { Smartphone, MapPin, Home } from 'lucide-react';
+import Link from 'next/link';
 
 const FeaturesSection = () => {
   return (
@@ -61,9 +62,9 @@ const FeaturesSection = () => {
         <h2 className="text-3xl font-bold italic mb-8">
           Instantly connect with your neighbourhood
         </h2>
-        <button className="bg-[#95e065] text-black px-8 py-3 rounded-full font-medium hover:bg-[#85cc59] transition-colors">
+        <Link href="#hero" className="bg-[#95e065] text-black px-8 py-3 rounded-full font-medium hover:bg-[#85cc59] transition-colors">
           Sign up
-        </button>
+        </Link>
       </div>
     </div>
   );
